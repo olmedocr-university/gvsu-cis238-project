@@ -7,7 +7,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<title>Company Name | Contact</title>
+	<title>Books and Mortar | Contact</title>
+	<style>
+		#googleMap {width:100%;height:400px;}
+	</style>
 </head>
 <body>
 
@@ -33,18 +36,24 @@
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
-			<div class="gmap_canvas">
-				<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=grand%20valley%20state%20university&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-			</div>
+			<div id="googleMap"></div>
+			<script>
+				function initMap() {
+			 		var cafe = {lat: 42.967485, lng: -85.887713};
+			 		var map = new google.maps.Map(document.getElementById('googleMap'), {zoom: 16, center: cafe});
+			  		var marker = new google.maps.Marker({position: cafe, map: map});
+			  	}
+			</script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACNy9iP1bxZdU2vY0Jw49N3sqOvxS7JbU&callback=initMap" type="text/javascript"></script>
 			
 		</article>
 
 		<article>
 			<h2>Want to check our social media?</h2>
 
-			<a href="#"><img class="socialmedia" src="mailLogo.png" alt="Email"></a>
-			<a href="#"><img class="socialmedia" src="facebookLogo.png" alt="Facebook"></a>
-			<a href="#"><img class="socialmedia" src="twitterLogo.png" alt="Twitter"></a>
+			<a href="#"><img class="socialmedia" src="images/mailLogo.png" alt="Email"></a>
+			<a href="#"><img class="socialmedia" src="images/facebookLogo.png" alt="Facebook"></a>
+			<a href="#"><img class="socialmedia" src="images/twitterLogo.png" alt="Twitter"></a>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 		</article>
@@ -60,7 +69,7 @@
 	</div> <!-- end id=content -->
 
 	<footer>
-		<p>&#169; Company Name.<br>Client Support: <a class="phone-mobile" href="123456789">(123) 456-789</a><span class="phone-desktop">(123) 456-789</span></p>
+		<p>&#169; Books and Mortar.<br>Client Support: <a class="phone-mobile" href="123456789">(123) 456-789</a><span class="phone-desktop">(123) 456-789</span></p>
 	</footer>
 
 </body>
