@@ -88,11 +88,6 @@ p {
 	margin-top: 0;
 }
 
-.gmap_canvas {
-	max-width: 100%;
-	height: auto;
-}
-
 iframe {
 	overflow: hidden;
 	background: none !important;
@@ -126,13 +121,13 @@ iframe {
 		margin-top: 5%;
 	}
 
-	li a:link {
+	nav li a:link {
 		color: orange;
 	}
-	li a:hover {
+	nav li a:hover {
 		color: brown;
 	}
-	li a:active {
+	nav li a:active {
 		color: red;
 	}
 
