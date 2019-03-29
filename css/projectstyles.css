@@ -86,7 +86,7 @@ form #basic-info label {
 }
 
 /* ---------- DESKTOP RULES ---------- */
-@media only screen and (min-width: 830px) { 
+@media only screen and (min-width: 830px) {
 
 	#content {
 		width: 70%;
@@ -142,6 +142,13 @@ form #basic-info label {
 	}
 	.phone-mobile {
 		display: none;
+	}
+	.cafe {
+		display: inline;
+		width: 30%;
+	}
+	.coupon {
+		height:200px;
 	}
 
 }/* end DESKTOP RULES */
