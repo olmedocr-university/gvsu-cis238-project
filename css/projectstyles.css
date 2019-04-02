@@ -287,6 +287,11 @@ form #basic-info label {
 		margin: auto;
 		padding: auto;
 		border: auto;
+	}
+    .p-books {
+		float: left;
+    	width: 60%;
+    	font-size: 1.3em;
     }
 
 }/* end DESKTOP RULES */
