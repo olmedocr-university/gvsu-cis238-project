@@ -277,11 +277,10 @@ form #basic-info label {
     	color: white;
     	font-size: 0.8em;
     }
-    .booksimages {
-	text-align: right;
-	margin: auto;
-	padding: auto;
-	border: auto;
+    .p-books {
+	float: left;
+    	width: 60%;
+    	font-size: 1.3em;
     }
 
 }/* end DESKTOP RULES */
