@@ -19,10 +19,11 @@ ul {
 ul li {
 	list-style-type: none;
 }
-li a {
+li a, .view-more-link {
 	text-decoration: none;
 	font-weight: bold;
-	color: white;
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 nav {
 	margin-top: 3%;
@@ -48,7 +49,7 @@ nav li{
 }
 body {
 	text-align: justify;
-	background-image: linear-gradient(#69706e, #35a0a5, #54b3d3, #6cbddd, #ffffff);
+	background-image: linear-gradient(#69706e, #35a0a5, #54b3d3, #6cbddd, #bfffff);
 	font-family: 'Roboto', Arial, Helvetica, Sans-Serif;
 }
 h1 {
@@ -111,6 +112,10 @@ p {
 	width: 50%;
 	margin: auto;
 }
+.booksimages {
+	display: block;
+	margin: auto;
+}
 form #basic-info label {
 	display: block;
 }
@@ -158,14 +163,14 @@ form #basic-info label {
 	h2 {
 		margin-top: 5%;
 	}
-	nav li a:link {
+	nav li a:link, .view-more-link:link {
 		color: blue;
 	}
-	nav li a:hover {
+	nav li a:hover, .view-more-link:hover {
 		color: lightgray;
 	}
-	nav li a:active {
-		color: lightblue;
+	nav li a:active, .view-more-link:active {
+		color: #62FFE7;
 	}
 	form ul li {
 		display: inline;
@@ -248,7 +253,7 @@ form #basic-info label {
 	    padding: 0 0.5em;
 	    text-align: center;
 	    background-color: gray;
-	    color:white;
+	    color: white;
     }
     td  {     
 	    font-size: medium;
@@ -278,10 +283,10 @@ form #basic-info label {
     	font-size: 0.8em;
     }
     .booksimages {
-	text-align: right;
-	margin: auto;
-	padding: auto;
-	border: auto;
+    	width: 30%;
+		margin: auto;
+		padding: auto;
+		border: auto;
     }
 
 }/* end DESKTOP RULES */
