@@ -108,6 +108,11 @@ p {
 form #basic-info label {
 	display: block;
 }
+.view-more-link {
+	display: block;
+	text-align: center;
+}
+
 
 /* ---------- DESKTOP RULES ---------- */
 @media only screen and (min-width: 830px) {
@@ -201,11 +206,14 @@ form #basic-info label {
 		font-size: 1.2em;
 	}
 	
-	#image-container {
-		margin: auto;
+	.image-container {
 		text-align: center;
+		margin: auto;
 		padding: auto;
 		border: auto;
+	}	
+	.view-more-link {
+		text-align: right;
 	}
 
 }/* end DESKTOP RULES */
