@@ -3,10 +3,9 @@
 /*Color Scheme:
 bbackground #69706e, #35a0a5, #54b3d3, #6cbddd, #ffffff
 container: white
-text: #492C1D
+text: black
 Accents:
-	#BDC696
-	#636940
+
 */
 
 /* ----------- MOBILE RULES ----------- */
@@ -104,6 +103,10 @@ p {
 	display: block;
 	margin: 1% auto;
 	width: 50%;
+}
+.book-container {
+	width: 50%;
+	margin: auto;
 }
 form #basic-info label {
 	display: block;
@@ -216,11 +219,17 @@ form #basic-info label {
 		margin: auto;
 		padding: auto;
 		border: auto;
-	}	
+	}
+	.book-container {
+		text-align: center;
+		margin: auto;
+		padding: auto;
+		border: auto;
+		width: 70%;
+	}
 	.view-more-link {
 		text-align: right;
 	}
-    /* Styling for the overall table */
 	table {
 	    table-layout: fixed;
 	    border-collapse: collapse;
@@ -229,14 +238,12 @@ form #basic-info label {
 	table caption {
 		color: #54b3d3;
 	}
-	/* Styling for the column headers (days of the week) */
 	th {
 	    padding: 0 0.5em;
 	    text-align: center;
 	    background-color: gray;
 	    color:white;
     }
-    
     td  {     
 	    font-size: medium;
 	    padding: 0.25em 0.25em;   
@@ -248,7 +255,6 @@ form #basic-info label {
 	td.disabled {
 		background: lightgray;
     }
-	/* Styling for the date numbers */
 	.date  {     
 	    font-size: large;
 	    padding: 0.25em 0.25em;   
