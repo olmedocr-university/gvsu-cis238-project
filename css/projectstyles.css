@@ -277,5 +277,11 @@ form #basic-info label {
     	color: white;
     	font-size: 0.8em;
     }
+    .booksimages {
+	text-align: right;
+	margin: auto;
+	padding: auto;
+	border: auto;
+    }
 
 }/* end DESKTOP RULES */
