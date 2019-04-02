@@ -43,7 +43,6 @@ nav li{
 	padding: 0.4em;
 	text-align: center;
 
-
 	margin: auto;
 	width: 80%;
 }
@@ -282,16 +281,16 @@ form #basic-info label {
     	color: white;
     	font-size: 0.8em;
     }
-    .booksimages {
+    /*.booksimages {
     	width: 30%;
 		margin: auto;
 		padding: auto;
 		border: auto;
-	}
-    .p-books {
+	}*/
+    /*.p-books {
 		float: left;
     	width: 60%;
     	font-size: 1.3em;
-    }
+    }*/
 
 }/* end DESKTOP RULES */
