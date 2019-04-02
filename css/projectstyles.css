@@ -112,7 +112,13 @@ form #basic-info label {
 	display: block;
 	text-align: center;
 }
-
+.date {
+	margin-right: 2em;
+	font-weight: bold;
+}
+#upcoming-events{
+	margin-left: 2em;
+}
 
 /* ---------- DESKTOP RULES ---------- */
 @media only screen and (min-width: 830px) {
@@ -205,7 +211,6 @@ form #basic-info label {
 		width: 55%;
 		font-size: 1.2em;
 	}
-	
 	.image-container {
 		text-align: center;
 		margin: auto;
@@ -215,5 +220,50 @@ form #basic-info label {
 	.view-more-link {
 		text-align: right;
 	}
+    /* Styling for the overall table */
+	table {
+	    table-layout: fixed;
+	    border-collapse: collapse;
+	    width: 100%;
+	}
+	table caption {
+		color: #54b3d3;
+	}
+	/* Styling for the column headers (days of the week) */
+	th {
+	    padding: 0 0.5em;
+	    text-align: center;
+	    background-color: gray;
+	    color:white;
+    }
+    
+    td  {     
+	    font-size: medium;
+	    padding: 0.25em 0.25em;   
+	    width: 14%; 
+	    height: 80px;
+	    text-align: left;
+	    vertical-align: top;
+	}
+	td.disabled {
+		background: lightgray;
+    }
+	/* Styling for the date numbers */
+	.date  {     
+	    font-size: large;
+	    padding: 0.25em 0.25em;   
+	    text-align: left;
+	    vertical-align: top;
+    }
+    .event {
+    	margin-top: 0.5em;
+    	padding: 0.5em;
+    	border-radius: 1em;
+    	background-color: #35a0a5;
+    }
+    div.event {
+    	color: white;
+    	font-size: 0.8em;
+    }
 
 }/* end DESKTOP RULES */
