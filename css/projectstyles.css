@@ -137,10 +137,6 @@ form #basic-info label {
 	margin-bottom:0.5em;
 }
 
-.li-links {
-	margin-bottom: 1.0em;
-}
-
 .bookspage {
 	max-width: 80%;
 	height: auto;
@@ -150,174 +146,195 @@ form #basic-info label {
 	display: block;
 }
 
+.centered {
+	text-align: center;
+}
+
+.book-container {
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	border: auto;
+	width: 70%;
+}
+.textchange {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.5em;
+	text-align: center;
+}
+.textchangebs {
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+	text-align: center;
+}
+.textchangesp {
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.9em;
+	text-align: center;
+}
+	
+
 /* ---------- DESKTOP RULES ---------- */
 @media only screen and (min-width: 830px) {
 
-	#content {
-		width: 70%;
-		padding: 1.5%;
-		overflow: auto;
-	}
-	#name, #email {
-		width: 50%;
-	} 
-	nav {
-		text-align: center;
-	}
-	nav li {
-		display: inline-block;
+#content {
+	width: 70%;
+	padding: 1.5%;
+	overflow: auto;
+}
+#name, #email {
+	width: 50%;
+} 
+nav {
+	text-align: center;
+}
+nav li {
+	display: inline-block;
 
-		padding: 0.5% 0;
-		margin-left: 0.1%;
-		margin-right: 0.1%;
-		border: 0;
-		border-spacing: 0;
-		border-radius: 0;
-		border-top: solid #6cbddd;
-		border-bottom: solid #6cbddd;
+	padding: 0.5% 0;
+	margin-left: 0.1%;
+	margin-right: 0.1%;
+	border: 0;
+	border-spacing: 0;
+	border-radius: 0;
+	border-top: solid #6cbddd;
+	border-bottom: solid #6cbddd;
 
-		width: 15%;
-		white-space: nowrap;
-	}
-	h2 {
-		margin-top: 5%;
-	}
-	nav li a:link {
-		color: blue;
-	}
-	nav li a:hover {
-		color: lightgray;
-	}
-	nav li a:active {
-		color: lightblue;
-	}
-	form ul li {
-		display: inline;
-		margin: auto 1%;
-	}
-	.article-float {
-		float: right;
-		width: 46%;
-		margin-left: 3%;
-	}
-	form {
-		width: 50%;
-		float: right;
-	}
-	footer {
-		clear: both;
-		padding: 0.1em;
-	}
-	h2 {
-		clear: both;
-	}
-	.phone-desktop {
-		display: inline;
-	}
-	.phone-mobile {
-		display: none;
-	}
-	.cafe {
-		display: inline;
-		width: 30%;
-	}
-	.socialmedia {
-		width: 10%;
-	}
-	.p-coupon {
-		float: left;
-		width: 60%;
-		font-size: 1.2em;
-	}
-	.coupon {
-		float: left;
-		width: 30%;
-		margin-left: 6%;
-	}
-	.merchandise {
-		float: right;
-		width: 40%;
-		margin-right: 4%;
-	}
-	.p-mercha {
-		float: right;
-		width: 55%;
-		font-size: 1.2em;
-	}
-	.image-container {
-		text-align: center;
-		margin: auto;
-		padding: auto;
-		border: auto;
-	}
-	.book-container {
-		text-align: center;
-		margin: auto;
-		padding: auto;
-		border: auto;
-		width: 70%;
-	}
-	.view-more-link {
-		text-align: right;
-	}
-	table {
-	    table-layout: fixed;
-	    border-collapse: collapse;
-	    width: 100%;
-	}
-	table caption {
-		color: #54b3d3;
-	}
-	th {
-	    padding: 0 0.5em;
-	    text-align: center;
-	    background-color: gray;
-	    color:white;
-    }
-    td  {     
-	    font-size: medium;
-	    padding: 0.25em 0.25em;   
-	    width: 14%; 
-	    height: 80px;
-	    text-align: left;
-	    vertical-align: top;
-	}
-	td.disabled {
-		background: lightgray;
-    }
-	.date  {     
-	    font-size: large;
-	    padding: 0.25em 0.25em;   
-	    text-align: left;
-	    vertical-align: top;
-    }
-    .event {
-    	margin-top: 0.5em;
-    	padding: 0.5em;
-    	border-radius: 1em;
-    	background-color: #35a0a5;
-    }
-    div.event {
-    	color: white;
-    	font-size: 0.8em;
-    }
-    .p-books {
+	width: 15%;
+	white-space: nowrap;
+}
+h2 {
+	margin-top: 5%;
+}
+nav li a:link {
+	color: blue;
+}
+nav li a:hover {
+	color: lightgray;
+}
+nav li a:active {
+	color: lightblue;
+}
+form ul li {
+	display: inline;
+	margin: auto 1%;
+}
+.article-float {
+	float: right;
+	width: 46%;
+	margin-left: 3%;
+}
+form {
+	width: 50%;
+	float: right;
+}
+footer {
+	clear: both;
+	padding: 0.1em;
+}
+h2 {
+	clear: both;
+}
+.phone-desktop {
+	display: inline;
+}
+.phone-mobile {
+	display: none;
+}
+.cafe {
+	display: inline;
+	width: 30%;
+}
+.socialmedia {
+	width: 10%;
+}
+.p-coupon {
 	float: left;
-    	width: 60%;
-    	font-size: 1.1em;
-    }
-    .p-books2 {
+	width: 60%;
+	font-size: 1.2em;
+}
+.coupon {
+	float: left;
+	width: 30%;
+	margin-left: 6%;
+}
+.merchandise {
+	float: right;
+	width: 40%;
+	margin-right: 4%;
+}
+.p-mercha {
+	float: right;
+	width: 55%;
+	font-size: 1.2em;
+}
+.image-container {
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	border: auto;
+}
+.view-more-link {
+	text-align: right;
+}
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+table caption {
+	color: #54b3d3;
+}
+th {
+    padding: 0 0.5em;
+    text-align: center;
+    background-color: gray;
+    color:white;
+}
+td  {     
+    font-size: medium;
+    padding: 0.25em 0.25em;   
+    width: 14%; 
+    height: 80px;
+    text-align: left;
+    vertical-align: top;
+}
+td.disabled {
+	background: lightgray;
+}
+.date  {     
+    font-size: large;
+    padding: 0.25em 0.25em;   
+    text-align: left;
+    vertical-align: top;
+}
+.event {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: #35a0a5;
+}
+div.event {
+    color: white;
+    font-size: 0.8em;
+}
+.p-books {
+    float: left;
+    width: 60%;
+    font-size: 1.1em;
+ }
+.p-books2 {
 	font-size:1.1em;
 	margin-bottom: 0.5em;
 	list-style-type: square;
 	margin-left: 1.5em;
-    }
-    .linkul:hover {
-	color: #00cc66;
-    }
-    .linkul:active {
-	color: #00cc66;
-    }
+}
 	
-
+.linkul:hover {
+	color: #00cc66;
+}
+.linkul:active {
+	color: #00cc66;
+}
+	
 }/* end DESKTOP RULES */
