@@ -101,16 +101,17 @@ p {
 .cafe {
 	display: block;
 	margin: 1% auto;
-  	width: 80%;
+  	width: 60%;
+}
+.book {
+	display: block;
+	margin: 1% auto;
+  	width: 40%;
 }
 .coupon, .merchandise {
 	display: block;
 	margin: 1% auto;
 	width: 50%;
-}
-.book-container {
-	width: 50%;
-	margin: auto;
 }
 form #basic-info label {
 	display: block;
@@ -122,18 +123,15 @@ form #basic-info label {
 #upcoming-events {
 	margin-left: 2em;
 }
-
 .linkul {
 	color: #000000;
 	font-family: 'Dokdo', cursive; 
 }
-
 .ul-links {
 	text-align: center;
 	font-size: 2em;
 	margin-bottom:0.5em;
 }
-
 .bookspage {
 	max-width: 80%;
 	height: auto;
@@ -142,17 +140,8 @@ form #basic-info label {
 	margin-top: 1.5em;
 	display: block;
 }
-
 .centered {
 	text-align: center;
-}
-
-.book-container {
-	text-align: center;
-	margin: auto;
-	padding: auto;
-	border: auto;
-	width: 70%;
 }
 .textchange {
 	font-family: 'Indie Flower', cursive;
@@ -170,7 +159,6 @@ form #basic-info label {
 	text-align: center;
 }
 	
-
 /* ---------- DESKTOP RULES ---------- */
 @media only screen and (min-width: 830px) {
 
@@ -240,6 +228,10 @@ h2 {
 }
 .cafe {
 	display: inline;
+	width: 40%;
+}
+.book {
+	display: inline;
 	width: 30%;
 }
 .socialmedia {
@@ -265,7 +257,7 @@ h2 {
 	width: 55%;
 	font-size: 1.2em;
 }
-.image-container {
+.image-container, .book-container {
 	text-align: center;
 	margin: auto;
 	padding: auto;
@@ -273,6 +265,9 @@ h2 {
 }
 .view-more-link {
 	text-align: right;
+}
+.book {
+	width: 20%;
 }
 table {
     table-layout: fixed;
@@ -326,7 +321,6 @@ div.event {
 	list-style-type: square;
 	margin-left: 1.5em;
 }
-	
 .linkul:hover {
 	color: #00cc66;
 }
