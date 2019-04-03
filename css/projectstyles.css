@@ -126,6 +126,30 @@ form #basic-info label {
 	margin-left: 2em;
 }
 
+.linkul {
+	color: #000000;
+	font-family: 'Dokdo', cursive; 
+}
+
+.ul-links {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom:0.5em;
+}
+
+.li-links {
+	margin-bottom: 1.0em;
+}
+
+.bookspage {
+	max-width: 80%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1.5em;
+	display: block;
+}
+
 /* ---------- DESKTOP RULES ---------- */
 @media only screen and (min-width: 830px) {
 
@@ -282,5 +306,18 @@ form #basic-info label {
     	width: 60%;
     	font-size: 1.1em;
     }
+    .p-books2 {
+	font-size:1.1em;
+	margin-bottom: 0.5em;
+	list-style-type: square;
+	margin-left: 1.5em;
+    }
+    .linkul:hover {
+	color: #00cc66;
+    }
+    .linkul:active {
+	color: #00cc66;
+    }
+	
 
 }/* end DESKTOP RULES */
