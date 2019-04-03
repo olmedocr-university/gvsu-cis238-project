@@ -61,6 +61,9 @@ h2 {
 	color: #54b3d3;
 	margin-top: 13%;
 }
+h3 {
+	text-align: center;
+}
 form {
 	width: 100%;
 }
@@ -193,6 +196,9 @@ nav li {
 }
 h2 {
 	margin-top: 5%;
+}
+h3 {
+	text-align: right;
 }
 nav li a:link {
 	color: blue;
