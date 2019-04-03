@@ -19,10 +19,11 @@ ul {
 ul li {
 	list-style-type: none;
 }
-li a {
+li a, .view-more-link {
 	text-decoration: none;
 	font-weight: bold;
-	color: white;
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 nav {
 	margin-top: 3%;
@@ -113,10 +114,6 @@ p {
 }
 form #basic-info label {
 	display: block;
-}
-.view-more-link {
-	display: block;
-	text-align: center;
 }
 .date {
 	margin-right: 2em;
