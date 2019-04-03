@@ -200,6 +200,12 @@ nav li a:hover {
 nav li a:active {
 	color: lightblue;
 }
+.linkul:hover {
+	color: #00cc66;
+}
+.linkul:active {
+	color: #00cc66;
+}
 form ul li {
 	display: inline;
 	margin: auto 1%;
@@ -226,11 +232,7 @@ h2 {
 .phone-mobile {
 	display: none;
 }
-.cafe {
-	display: inline;
-	width: 40%;
-}
-.book {
+.cafe, .book {
 	display: inline;
 	width: 30%;
 }
@@ -252,7 +254,7 @@ h2 {
 	width: 40%;
 	margin-right: 4%;
 }
-.p-mercha {
+.p-merchandise {
 	float: right;
 	width: 55%;
 	font-size: 1.2em;
@@ -320,12 +322,6 @@ div.event {
 	margin-bottom: 0.5em;
 	list-style-type: square;
 	margin-left: 1.5em;
-}
-.linkul:hover {
-	color: #00cc66;
-}
-.linkul:active {
-	color: #00cc66;
 }
 	
 }/* end DESKTOP RULES */
