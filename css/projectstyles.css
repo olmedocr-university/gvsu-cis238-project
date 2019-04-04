@@ -2,10 +2,6 @@
 
 /*Color Scheme:
 bbackground #69706e, #35a0a5, #54b3d3, #6cbddd, #ffffff
-container: white
-text: black
-Accents:
-
 */
 
 /* ----------- MOBILE RULES ----------- */
@@ -42,7 +38,6 @@ nav li{
 	border: 0.1em #6cbddd solid;
 	padding: 0.4em;
 	text-align: center;
-
 
 	margin: auto;
 	width: 80%;
