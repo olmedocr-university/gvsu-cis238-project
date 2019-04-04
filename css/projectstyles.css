@@ -174,10 +174,18 @@ form > fieldset > p{
 	font-size: 1.9em;
 	text-align: center;
 }
+
+.mobilehide {
+display: none;
+}
 	
 /* ---------- DESKTOP RULES ---------- */
 @media only screen and (min-width: 830px) {
 
+.mobilehide {
+	display: inline;
+}	
+	
 #content {
 	width: 70%;
 	padding: 1.5%;
