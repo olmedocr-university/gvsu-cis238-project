@@ -49,6 +49,10 @@ nav li .phone-mobile {
 	margin-top: 0.6em;
 	margin-bottom: 0.1em;
 }
+.dropdown-content a {
+	border: 0.1em #6cbddd solid;
+	background-color: #35a0a5;
+}
 body {
 	text-align: justify;
 	background-image: linear-gradient(#69706e, #35a0a5, #54b3d3, #6cbddd, #ffffff);
