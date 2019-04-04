@@ -33,6 +33,7 @@ nav li{
 	
 	background-color: #35a0a5;
 	
+	font-size: 1.4em;
 	border-spacing: 2em;
 	border-radius: 0.8em;
 	border: 0.1em #6cbddd solid;
@@ -41,6 +42,12 @@ nav li{
 
 	margin: auto;
 	width: 80%;
+}
+nav li .phone-mobile {
+	border: none;
+	font-size: 0.7em;
+	margin-top: 0.6em;
+	margin-bottom: 0.1em;
 }
 body {
 	text-align: justify;
